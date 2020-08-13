@@ -12,7 +12,8 @@ sap.ui.define([
 			var data = oEvent.getParameter("rowContext").getPath();      //"/empDetails/0"
 			var listItm = this.getView().byId("listObj");
 			listItm.bindElement(data);
-			sap.m.MessageToast.show("Hi Usha");
+			sap.m.MessageToast.show("Hi usha");
+				sap.m.MessageToast.show("Hi chaitali");
 		}
 	});
 });
