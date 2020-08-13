@@ -14,6 +14,8 @@ sap.ui.define([
 			listItm.bindElement(data);
 			sap.m.MessageToast.show("Hi usha");
 				sap.m.MessageToast.show("Hi chaitali");
+					sap.m.MessageToast.show("Merging Completed");
+				
 		}
 	});
 });
