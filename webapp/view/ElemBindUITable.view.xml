@@ -1,0 +1,34 @@
+<mvc:View controllerName="uitab.ElemBindingUITable.controller.ElemBindUITable" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns:tab="sap.ui.table" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<tab:Table selectionMode="Single" rows="{/empDetails}" visibleRowCount="5" rowSelectionChange="selectionRow">
+							<tab:columns>
+								<tab:Column>
+									<Label text="Employee Name"></Label>
+									<tab:template>
+										<Text text="{name}"></Text>
+									</tab:template>
+								</tab:Column>
+								<tab:Column>
+									<Label text="Employee Salary"></Label>
+									<tab:template>
+										<Text text="{salary}"></Text>
+									</tab:template>
+								</tab:Column>
+							</tab:columns>
+						</tab:Table>
+						<List id="listObj">
+							<items>
+								<ObjectListItem title="{name}" number="{salary}" ></ObjectListItem>
+							</items>
+						</List>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

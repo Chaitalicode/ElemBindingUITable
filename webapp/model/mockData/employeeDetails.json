@@ -1,0 +1,18 @@
+{
+	"empDetails":[{
+		"name":"chaitali",
+		"salary":25000
+	},
+	{
+		"name":"Rajat",
+		"salary":20000
+	},
+	{
+		"name":"Mohit",
+		"salary":30000
+	},
+	{
+		"name":"Rohit",
+		"salary":15000
+	}]
+}
